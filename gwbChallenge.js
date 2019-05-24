@@ -1,9 +1,9 @@
 modifyString = str => {
-  // Remove vowels
-  // Reverse string
   let newString = "";
 
+  // Remove vowels
   newString = str.replace(/[aeiou]/gi, "");
+  // Reverse string
   newString = newString
     .split("")
     .reverse()
